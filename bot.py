@@ -78,6 +78,7 @@ class InstagramProfile:
             url = urllib.parse.urljoin('https://instagram.com', names[name])
             self.driver.get(url)
             sleep(r(2,3))
+            self.driver.find_element_by_xpath("//button[contains(text(),\"Following\")]").click()
             k = False
             while not k:
                 print(name)
