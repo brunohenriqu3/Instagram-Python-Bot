@@ -12,7 +12,7 @@
 
 ## Usage
 
-- Clone the project and then edit the variables called `username` and `password` with your own password
+- Clone the project and then edit the variables called `username` and `password` with your own username and password.
 - Save the file and run it!
 
 ### Methods
