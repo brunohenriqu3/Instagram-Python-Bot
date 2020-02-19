@@ -89,8 +89,8 @@ class InstagramProfile:
                 except:
                     k = True
                 
-username = 'brunoh3n_'
-password = 'Maritaca157'
+username = 'yourusername'
+password = 'yourpassword'
 
 bot = InstagramProfile(username, password)
 bot.get_unfollowers()
