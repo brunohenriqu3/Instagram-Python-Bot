@@ -19,14 +19,14 @@
 
 - `get_unfollowers()` : this method will generate a list with the accounts that you follow but don't follow you back.
 
-- `clean_log() : this method will clean up your log file that contains the last updated list of accounts.
+- `clean_log()` : this method will clean up your log file that contains the last updated list of accounts.
 
--`unfollow(names)` : this method will begin to unfollow the accounts in the `names` list, where it will be executed as the following:
-
-	- Unfollow 20 accounts (apparently that is the new limit imposed by Instagram)
-	- Wait 20 minutes.
-	- Unfollow 20 more accounts.
-	- Repeat the cycle until all accouns in the `name` list are unfollowed.
+- `unfollow(names)` : this method will begin to unfollow the accounts in the `names` list, where it will be executed as the following:
+    - 🍴 Fork this repo!
+    - Unfollow 20 accounts (apparently that is the new limit imposed by Instagram)
+    - Wait 20 minutes.
+    - Unfollow 20 more accounts.
+    - Repeat the cycle until all accouns in the `name` list are unfollowed.
 
 
 
