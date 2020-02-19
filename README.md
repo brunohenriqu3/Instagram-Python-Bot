@@ -22,11 +22,10 @@
 - `clean_log()` : this method will clean up your log file that contains the last updated list of accounts.
 
 - `unfollow(names)` : this method will begin to unfollow the accounts in the `names` list, where it will be executed as the following:
-    - 🍴 Fork this repo!
     - Unfollow 20 accounts (apparently that is the new limit imposed by Instagram)
     - Wait 20 minutes.
     - Unfollow 20 more accounts.
-    - Repeat the cycle until all accouns in the `name` list are unfollowed.
+    - Repeat the cycle until all accouns in the `names` list are unfollowed.
 
 
 
